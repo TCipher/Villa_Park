@@ -10,6 +10,7 @@ namespace VilllaParks.Data
 
         }
         public DbSet<VillaPark> VillaParks { get; set;}
+        public DbSet<VillaParkNumber> VillaParkNumbers { get; set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<VillaPark>().HasData(
