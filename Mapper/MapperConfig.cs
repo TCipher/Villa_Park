@@ -19,6 +19,7 @@ namespace VilllaParks.Mapper
 
             CreateMap<VillaParkNumber, VillaParkNoCreatDTO>().ReverseMap();
             CreateMap<VillaParkNumber, VillaParkNoUpdateDTO>().ReverseMap();
+            CreateMap<ApplicationUser, UserDTO>().ReverseMap();
         }
 
     }
